@@ -1,0 +1,14 @@
+[project]
+name = "graph-project"
+version = "0.1.0"
+description = "Discrete Mathematics II - Project, Delivery 1: graphs from scratch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+graph-project = "graph_project:main"
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
